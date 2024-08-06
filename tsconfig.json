@@ -26,7 +26,7 @@
 		"**/*.ts",
 		"**/*.tsx",
 		".next/types/**/*.ts",
-		"src/utils/generateDID.js"
+		"src/utils/generateDID.ts"
 	],
 	"exclude": ["node_modules"]
 }

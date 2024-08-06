@@ -1,7 +1,8 @@
 'use client'
 
 import { useState } from 'react'
-import { generateDID, storeDIDDocument } from '../utils/generateDID'
+import { generateDID } from '../../utils/generateDID'
+import { storeDIDDocument } from '../../utils/storeResolveDID'
 
 const GenerateDID = () => {
 	const [did, setDID] = useState(null)
